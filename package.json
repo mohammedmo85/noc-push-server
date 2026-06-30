@@ -1,0 +1,17 @@
+{
+  "name": "noc-push-server",
+  "version": "1.0.0",
+  "description": "سيرفر إشعارات Push حقيقية لتطبيق دوام المناوبين والبصمات",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "generate-vapid": "node generate-vapid.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "web-push": "^3.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}
